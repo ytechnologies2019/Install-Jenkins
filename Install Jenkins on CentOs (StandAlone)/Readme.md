@@ -13,7 +13,7 @@
   -  java -jar jenkins.war --httpPort=8080
  
 
-  **[Optional (Run the Jenkins as Background Process)]**
+  ** Optional (Run the Jenkins as Background Process) **
 
   ++ nohup java -jar jenkins.war --httpPort=8080 > jenkins.log 2>&1 &
 
