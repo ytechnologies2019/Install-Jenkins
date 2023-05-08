@@ -1,14 +1,14 @@
-## Install Jenkins on Centos
- [Install Java]
+                                                            ## Install Jenkins on Centos ##
+## [Install Java]
 
   - yum install java-11-openjdk-devel
 
-  [Download Jenkins War File]
+## [Download Jenkins War File]
   
   - wget https://get.jenkins.io/war-stable/latest/jenkins.war
 
 
-  [Start Jenkins]
+## [Start Jenkins]
 
   -  java -jar jenkins.war --httpPort=8080
  
@@ -18,6 +18,6 @@
   ++ nohup java -jar jenkins.war --httpPort=8080 > jenkins.log 2>&1 &
 
 
-  [Default password was saved at]
+## [Default password was saved at]
 
   - /root/.jenkins/secrets/initialAdminPassword
